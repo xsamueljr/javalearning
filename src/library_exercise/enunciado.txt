@@ -1,0 +1,31 @@
+Ejercicio: Sistema de Biblioteca
+
+Crea una clase Libro con los atributos:
+
+titulo (str)
+
+autor (str)
+
+anio (int)
+
+prestado (bool, inicializado como False)
+
+Métodos:
+
+prestar(): marca el libro como prestado si no lo está.
+
+devolver(): marca el libro como no prestado.
+
+info(): devuelve una cadena con la información del libro.
+
+Crea una clase Persona con atributos:
+
+nombre (str)
+
+libros_prestados (lista de libros, inicializada vacía)
+
+Métodos:
+
+tomar_libro(libro: Libro): presta un libro y lo agrega a su lista si está disponible.
+
+devolver_libro(libro: Libro): devuelve un libro y lo elimina de su lista.
